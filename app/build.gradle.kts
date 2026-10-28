@@ -16,7 +16,7 @@ android {
     compileSdk = 37 // Optimized to a stable production SDK target
 
     defaultConfig {
-        applicationId = "com.paisapulse.app"
+        applicationId = "com.siddhant.paisapulse"
         minSdk = 26
         targetSdk = 36
         versionCode = 3
