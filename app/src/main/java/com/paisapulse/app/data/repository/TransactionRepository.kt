@@ -16,7 +16,7 @@ class TransactionRepository @Inject constructor(
 ) {
     val allTransactions: Flow<List<TransactionEntity>> = transactionDao.getAllTransactions()
 
-    suspend fun insertTransaction(transaction: TransactionEntity) = transactionDao.insertTransaction(transaction)
+
 
     suspend fun deleteTransaction(transactionId: Int) = transactionDao.deleteById(transactionId)
 
